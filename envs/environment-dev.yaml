@@ -1,0 +1,27 @@
+# conda environment description file for cliff-structlog-expt package
+# development environment
+#
+# Create a conda environment for development, testing and documentation of the package
+# with:
+#
+#   $ conda env create -f cliff-structlog-expt/envs/environment-dev.yaml
+#   $ conda activate cliff-structlog-expt
+#   (cliff-structlog-expt)$ python3 -m pip install --editable cliff-structlog-expt
+#
+# The environment will include all of the tools used to develop,
+# test, and document the cliff-structlog-expt package.
+#
+# See the envs/requirements.txt file for an exhaustive list of all of the
+# packages installed in the environment and their versions used in
+# recent development.
+
+name: cliff-structlog-expt
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - cliff
+  - python=3.9
+  - structlog
