@@ -25,3 +25,6 @@ dependencies:
   - cliff
   - python=3.9
   - structlog
+
+  # For code style & repo QA
+  - pre-commit
