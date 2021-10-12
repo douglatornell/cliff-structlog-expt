@@ -3,7 +3,7 @@
 cliff & structlog Experiment Command-line App
 
 This module is connected to the `cliff_structlog_expt` command via a
-and options.entry_points console_scripts item in setup.cfg.
+an options.entry_points console_scripts item in setup.cfg.
 """
 import sys
 
